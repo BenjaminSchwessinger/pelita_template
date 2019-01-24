@@ -1,0 +1,69 @@
+name: aspp
+channels:
+- conda-forge
+dependencies:
+- python=3.6*
+- setuptools
+- sympy
+- numpy=1.15.4
+- scipy
+- statsmodels
+- pint
+- python-graphviz
+- dask
+- xarray
+- distributed
+- matplotlib
+- altair
+- bokeh
+- datashader
+- toolz
+- cytoolz
+- requests
+- pandas
+- pytables
+- seaborn
+- sqlalchemy
+- ipython
+- jupyter
+- sqlite
+- scikit-image
+- scikit-learn
+- xlrd
+- xlwt
+- openpyxl
+- pytest
+- hypothesis
+- imageio
+- tqdm
+- cython
+- numba
+- numexpr
+- cartopy
+- line_profiler
+- memory_profiler
+- networkx
+- beautifulsoup4
+- snakeviz
+- plotly
+- coverage
+- pytest-cov
+- holoviews
+- xarray
+- protobuf
+- tensorflow
+- pytorch
+- mypy
+- numpydoc
+- sphinx
+- spyder
+- tqdm
+- pudb
+- ipdb
+- pip:
+  - jupytercontrib
+  - jupyterthemes
+  - dask-jobqueue
+  - pylint
+  - git+https://github.com/aspp-apac/pelita.git
+
